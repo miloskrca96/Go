@@ -15,18 +15,18 @@ type Track struct {
 	distance int
 }
 
-// func main() {
-// 	speed := 5
-// 	batteryDrain := 2
-// 	car := NewCar(speed, batteryDrain)
-// 	fmt.Println(car)
+func main() {
+	speed := 5
+ 	batteryDrain := 2
+ 	car := NewCar(speed, batteryDrain)
+ 	fmt.Println(car)
 
-// 	distance := 800
-// 	raceTrack := NewTrack(distance)
-// 	fmt.Println(raceTrack)
+ 	distance := 800
+ 	raceTrack := NewTrack(distance)
+ 	fmt.Println(raceTrack)
 
-// 	fmt.Println(CanFinish(car, raceTrack))
-// }
+ 	fmt.Println(CanFinish(car, raceTrack))
+}
 
 // NewCar creates a new remote controlled car with full battery and given specifications.
 func NewCar(speed, batteryDrain int) Car {
